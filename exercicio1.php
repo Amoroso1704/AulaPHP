@@ -37,7 +37,7 @@
 
         $nome = $_REQUEST["cliente"];
         $sexo = $_REQUEST["sexo"];
-        $valor = $_REQUEST["valor"]
+        $valor = $_REQUEST["valor"];
 
         echo $nome;
         echo $sexo;
