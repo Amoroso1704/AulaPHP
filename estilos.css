@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: cadetblue;
+
+}
+
+.menu a{
+    color: white;
+    font-size: 20px;
+}
+
+.conteudo{
+    width: 700px;
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+    margin: 10px auto;
+    box-shadow: 5px 5px 10px gray;
+    padding: 10px;
+}
+
+.conteudo input[type=text]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.conteudo input[type=submit]{
+    width: 150px;
+    padding: 10px;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+table, td, th{
+    border: 1px solid cadetblue;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th{
+    background-color: cadetblue;
+    color: white;
+}
+
+table{
+    width: 100%;
+}
